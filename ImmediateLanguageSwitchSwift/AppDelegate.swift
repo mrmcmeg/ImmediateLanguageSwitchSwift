@@ -16,11 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "languageWillChange:", name: "LANGUAGE_WILL_CHANGE", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(AppDelegate.languageWillChange(_:)), name: "LANGUAGE_WILL_CHANGE", object: nil)
         
         let targetLang = NSUserDefaults.standardUserDefaults().objectForKey("selectedLanguage") as? String
         
-        NSBundle.setLanguage((targetLang != nil) ? targetLang : "en")
+        NSBundle.setLanguage((targetLang != nil) ? targetLang! : "en")
         return true
     }
 

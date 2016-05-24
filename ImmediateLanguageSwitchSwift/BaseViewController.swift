@@ -20,7 +20,7 @@ class BaseViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "languageDidChangeNotification:", name: "LANGUAGE_DID_CHANGE", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(BaseViewController.languageDidChangeNotification(_:)), name: "LANGUAGE_DID_CHANGE", object: nil)
         languageDidChange()
     }
     

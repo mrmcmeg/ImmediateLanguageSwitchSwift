@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		369A8E5B1CF5141E00FB7DD9 /* PrivateBundle+BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369A8E5A1CF5141E00FB7DD9 /* PrivateBundle+BundleExtension.swift */; };
 		64945FDB1B75566E0034A40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64945FDA1B75566E0034A40E /* AppDelegate.swift */; };
 		64945FDD1B75566E0034A40E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64945FDC1B75566E0034A40E /* ViewController.swift */; };
 		64945FE01B75566E0034A40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64945FDE1B75566E0034A40E /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		64945FE51B75566E0034A40E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64945FE31B75566E0034A40E /* LaunchScreen.xib */; };
 		64945FF11B75566E0034A40E /* ImmediateLanguageSwitchSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64945FF01B75566E0034A40E /* ImmediateLanguageSwitchSwiftTests.swift */; };
 		64945FFB1B7556880034A40E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64945FFA1B7556880034A40E /* BaseViewController.swift */; };
-		64945FFF1B755A8A0034A40E /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 64945FFE1B755A8A0034A40E /* NSBundle+Language.m */; };
 		649460051B755CC50034A40E /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 649460041B755CC40034A40E /* es.lproj */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		369A8E5A1CF5141E00FB7DD9 /* PrivateBundle+BundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PrivateBundle+BundleExtension.swift"; sourceTree = "<group>"; };
 		64945FD51B75566E0034A40E /* ImmediateLanguageSwitchSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmediateLanguageSwitchSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64945FD91B75566E0034A40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64945FDA1B75566E0034A40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,9 +41,6 @@
 		64945FEF1B75566E0034A40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64945FF01B75566E0034A40E /* ImmediateLanguageSwitchSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmediateLanguageSwitchSwiftTests.swift; sourceTree = "<group>"; };
 		64945FFA1B7556880034A40E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		64945FFC1B755A890034A40E /* ImmediateLanguageSwitchSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImmediateLanguageSwitchSwift-Bridging-Header.h"; sourceTree = "<group>"; };
-		64945FFD1B755A8A0034A40E /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
-		64945FFE1B755A8A0034A40E /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
 		649460021B755C930034A40E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		649460031B755C930034A40E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		649460041B755CC40034A40E /* es.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = es.lproj; path = ImmediateLanguageSwitchSwift/es.lproj; sourceTree = "<group>"; };
@@ -90,14 +88,12 @@
 			children = (
 				64945FDA1B75566E0034A40E /* AppDelegate.swift */,
 				64945FDC1B75566E0034A40E /* ViewController.swift */,
+				369A8E5A1CF5141E00FB7DD9 /* PrivateBundle+BundleExtension.swift */,
 				64945FDE1B75566E0034A40E /* Main.storyboard */,
-				64945FFD1B755A8A0034A40E /* NSBundle+Language.h */,
-				64945FFE1B755A8A0034A40E /* NSBundle+Language.m */,
 				64945FE11B75566E0034A40E /* Images.xcassets */,
 				64945FE31B75566E0034A40E /* LaunchScreen.xib */,
 				64945FD81B75566E0034A40E /* Supporting Files */,
 				64945FFA1B7556880034A40E /* BaseViewController.swift */,
-				64945FFC1B755A890034A40E /* ImmediateLanguageSwitchSwift-Bridging-Header.h */,
 			);
 			path = ImmediateLanguageSwitchSwift;
 			sourceTree = "<group>";
@@ -171,7 +167,8 @@
 		64945FCD1B75566E0034A40E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					64945FD41B75566E0034A40E = {
 						CreatedOnToolsVersion = 6.4;
@@ -227,8 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64945FFF1B755A8A0034A40E /* NSBundle+Language.m in Sources */,
 				64945FDD1B75566E0034A40E /* ViewController.swift in Sources */,
+				369A8E5B1CF5141E00FB7DD9 /* PrivateBundle+BundleExtension.swift in Sources */,
 				64945FDB1B75566E0034A40E /* AppDelegate.swift in Sources */,
 				64945FFB1B7556880034A40E /* BaseViewController.swift in Sources */,
 			);
@@ -295,6 +292,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -364,8 +362,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ImmediateLanguageSwitchSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ImmediateLanguageSwitchSwift/ImmediateLanguageSwitchSwift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -377,8 +376,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ImmediateLanguageSwitchSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ImmediateLanguageSwitchSwift/ImmediateLanguageSwitchSwift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -396,6 +396,7 @@
 				);
 				INFOPLIST_FILE = ImmediateLanguageSwitchSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImmediateLanguageSwitchSwift.app/ImmediateLanguageSwitchSwift";
 			};
@@ -411,6 +412,7 @@
 				);
 				INFOPLIST_FILE = ImmediateLanguageSwitchSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImmediateLanguageSwitchSwift.app/ImmediateLanguageSwitchSwift";
 			};
@@ -435,6 +437,7 @@
 				64945FF61B75566E0034A40E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64945FF71B75566E0034A40E /* Build configuration list for PBXNativeTarget "ImmediateLanguageSwitchSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +446,7 @@
 				64945FF91B75566E0034A40E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
